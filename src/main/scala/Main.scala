@@ -15,12 +15,10 @@ object  Main {
     /** *
       * ********************* Test Balance Exercise ***********************
       */
-    var paranthesis = "(234(3(2)s)d))10" //The String
+    var paranthesis = "!254))(((54?" //The String
     println(balance(paranthesis.toList))
 
-    /** *
-      * ********************* Test Counting Change Exercice  ***********************
-      */
+
 
   }
 
@@ -60,7 +58,7 @@ object  Main {
 
 
   def countChange(money: Int, coins: List[Int]): Int = {
-    if (coins.isEmpty) 0  /*if (coins.isEmpty) if (money == 0) 1 else 0*/
+    if (coins.isEmpty) 0  
     else if (money - coins.head == 0) 1
     else if (money - coins.head < 0) 0
     else countChange(money - coins.head, coins) + countChange(money, coins.tail)
