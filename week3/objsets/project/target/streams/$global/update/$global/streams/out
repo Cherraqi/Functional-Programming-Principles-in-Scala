@@ -1,0 +1,27 @@
+[info] Updating {file:/home/cherraqi/Functional-Programming-Principles-Scala/week3/objsets/project/}objsets-build...
+[debug] :: resolving dependencies :: default#objsets-build;0.1-SNAPSHOT
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for default#objsets-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#objsets-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.7 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.7 {scala-tool=[default, optional(default)], provided=[default(compile)]}
+[info] Resolving org.scalastyle#scalastyle_2.10;0.8.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scalastyle#scalastyle_2.10;0.8.0 {compile=[default(compile)]}
+[info] Resolving org.scalastyle#scalastyle_2.10;0.8.0 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalastyle#scalastyle_2.10;0.8.0 {compile=[default(compile)]}
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle_2.10/0.8.0/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle_2.10/0.8.0/ivys/ivy.xml
+[debug] 	typesafe-ivy-releases: no ivy file found for org.scalastyle#scalastyle_2.10;0.8.0
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle_2.10/0.8.0/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle_2.10/0.8.0/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: no ivy file found for org.scalastyle#scalastyle_2.10;0.8.0
+[debug] 		tried /home/cherraqi/.ivy2/local/org.scalastyle/scalastyle_2.10/0.8.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scalastyle#scalastyle_2.10;0.8.0
+[debug] 		tried https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.pom
+[debug] 	public: found md file for org.scalastyle#scalastyle_2.10;0.8.0
+[debug] 		=> https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.pom (0.8.0)
+[debug] downloading https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.pom
