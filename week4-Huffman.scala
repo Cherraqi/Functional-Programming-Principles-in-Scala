@@ -4,7 +4,7 @@
   *
   */
 object Huffman {
-	def main(args : Array[String]) {
+   def main(args : Array[String]) {
      val t1 = Fork(Leaf('a',2), Leaf('b',3), List('a','b'), 5)
      val t2 = Fork(Fork(Leaf('a',2), Leaf('b',3), List('a','b'), 5), Leaf('d',4), List('a','b','d'), 9)
      assert(weight(t1) ==5)
